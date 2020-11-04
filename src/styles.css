@@ -1,0 +1,49 @@
+body {
+	transition: background-color 1.5s linear;
+	background-color: #00dbdb;
+}
+
+
+.quote, .author, .generate {
+	width: 60vw;
+}
+
+.quote {
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin: 15% auto 0 auto;
+	height: 40vh;
+}
+
+.author {
+	text-align: right;
+	margin: 0 auto;
+}
+
+h5 {
+	font-family: 'Crimson Text', serif;
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.generate {
+	margin: 0 auto;
+}
+
+button {
+	font-family: 'Crimson Text', serif;
+	border-radius: 5px;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 15px;
+	outline: none;
+	position: fixed;
+	margin: 0 25%;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
